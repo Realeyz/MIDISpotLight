@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Example CC 1/Example CC.unity
+- path: Assets/Example CC/Example CC.unity
   isLoaded: 1
   isActive: 1
