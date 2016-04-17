@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Example CC/KnobIndicatorGroup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Example CC/KnobIndicator.cs">
     <Files>
-      <File FileName="Assets/Example CC/KnobIndicator.cs" Line="1" Column="1" />
-      <File FileName="Assets/Example CC/KnobIndicatorGroup.cs" Line="1" Column="1" />
+      <File FileName="Assets/Example CC/KnobIndicatorGroup.cs" Line="28" Column="58" />
+      <File FileName="Assets/Example CC/KnobIndicator.cs" Line="10" Column="5" />
+      <File FileName="Assets/MidiJack/MidiMaster.cs" Line="78" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

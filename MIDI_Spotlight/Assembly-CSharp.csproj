@@ -51,6 +51,7 @@
      <Compile Include="Assets\MidiJack\MidiDriver.cs" />
      <Compile Include="Assets\MidiJack\MidiMaster.cs" />
      <Compile Include="Assets\MidiJack\MidiStateUpdater.cs" />
+     <Compile Include="Assets\Scripts\MyRotate.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/ Developer/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

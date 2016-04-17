@@ -7,6 +7,7 @@ public class KnobIndicator : MonoBehaviour
 
     void Awake()
     {
+		// MH: Is Vector3.one the Y component? 
         transform.localScale = Vector3.zero;
     }
 
