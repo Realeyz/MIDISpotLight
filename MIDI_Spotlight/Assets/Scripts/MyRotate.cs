@@ -1,21 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
+using MidiJack;
 
 public class MyRotate : MonoBehaviour {
 
+	public int knobNumber;
+	[SerializeField]
+	private float knobVal; // value of knob
 	[SerializeField]
 	private float rotateSpeed = 1.0f; // In rotations per second
-	// Use this for initialization
-	void Start () {
-		StartCoroutine (Spin ());
-	}
-	
-	private IEnumerator Spin()
+
+	void Awake()
 	{
-		while (true) // loop always
-		{
-			transform.Rotate (transform.up, 360 * rotateSpeed * Time.deltaTime); //transform.up = around Y axis
-			yield return 0; // do at end of Update (deprioritize)
-		}
+		knobVal = MidiMaster.GetKnob(knobNumber);
+		// transform.localScale = new Vector3(1, s, 1);
+		transform.Rotate (transform.up, 360 * rotateSpeed * knobVal); //transform.up = around Y axis
+	}
+
+
+	void Update()
+	{
+		knobVal = MidiMaster.GetKnob(knobNumber);
+		// transform.localScale = new Vector3(1, s, 1);
+		transform.Rotate (transform.up, 360 * rotateSpeed * knobVal); //transform.up = around Y axis
 	}
 }
